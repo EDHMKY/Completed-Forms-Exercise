@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Customer Experience Survey">
+        <title>Survey</title>
+
+    
+    </head>
+    <body>
+        <form>
+            
+            <fieldset>
+                <legend>Customer Experience Survey</legend>
+                <!--Select Element-->
+                <label for="store"> Store Number</label>
+                <select id=" store" name="store"
+                <option value="3109">3109</option>
+                <option value="2421">2421</option>
+                <option value="5357">5357</option>
+            </select>
+                
+                </fieldset>
+                <legend>When you visit</legend>
+                
+                <div>
+                    <label for="date">Date Visited</label>
+                   
+                </div>
+                <div>
+                     
+                     <label for="time">Time</label>
+                <input type="time" id="time" name="time">
+                </div>
+               </fieldset>
+               
+               <div>
+                   <label for="Fullname">Full name:</label>
+                   <input type="text" id="fullName" name="fullName" placeholder="Name">
+               </div>
+               
+               <div>
+                   <label for="email">Email:</label>
+                   <input type="email" id="email" name="email" placeholder="Email">
+               </div>
+               <fieldset>
+                   <legend>Gender</legend>
+                   <div>
+                       <input type="radio" name="gender" id="male" value="Male">
+                       <label for="male">Male</label>
+                   </div>
+                   <div>
+                    <input type="radio" name="gender" id="female" value="Female">
+                    <label for="female">Female</label>
+                </div>
+               </fieldset>
+               <div>
+                   <label for="textara">Tell us about your experience:</label>
+                   <br>
+                   <textarea id="textarea" cols="20" rows="2" name="textarea"></textarea>
+               </div>
+               <div>
+                   <label for="number">Times visited in the last month:</label>
+                   <br>
+                   <input type="number" id="number" name="number"> 
+               </div>
+               <div>
+               <input type="checkbox" id="checkbox" name="checkbox">
+               <label for="checkbox">Please check the box if you would be willing to be contacted about your experience</label>
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password">
+            </div>
+            <input type="submit">
+        </fieldset>
+        </form>
+    </body>
+</html>
+
